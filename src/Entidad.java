@@ -4,6 +4,14 @@ public class Entidad {
     int defensa;
     String nombre;
 
+    public int turno(int accion) {
+        return accion;
+    }
+
+    public void info() {
+
+    }
+
     public void setAtaque(int ataque) {
         this.ataque = ataque;
     }
